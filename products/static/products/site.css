@@ -1,0 +1,75 @@
+.message {
+    font-weight: 1000;
+    color: rgb(31, 143, 81);
+}
+
+.navbar {
+    background-color: rgb(187, 87, 117);
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(50, 12, 99);
+    padding: 8px 5px 8px 5px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-brand {
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+.navbar-item {
+    font-variant: small-caps;
+    margin-left: 50px;
+}
+
+.body-content {
+    padding: 30px;
+    font-size: 2.0em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background:#6cf;
+}
+
+.btn {
+    min-width: 200px;
+    min-height: 70px;
+}
+
+.btn-large {
+    color: #0f115e;
+    font-size: 1.8em;
+    background-color: rgb(219, 107, 107);
+    border-color: #d46c97;
+}
+
+.form-control {
+    background: #6AB6D8;
+    padding: 10px;
+    margin-bottom: 50px;
+    border: 3px solid #2E86BB;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+  }
