@@ -9,8 +9,8 @@
   </div>
           
   <form action = " "  method = 'post'> 
-        {% csrf_token %}
-        {{ productform }}
+        <!-- {% csrf_token %} -->
+        {{ form.as_p }}
       <button class="btn btn-large btn-outline-success" type="submit">Search</button>
   </form>
     

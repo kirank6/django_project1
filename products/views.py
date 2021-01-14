@@ -9,14 +9,16 @@ class HomePageView(TemplateView):
      template_name ='home.html'
 
 def home(request):
-    if request.method == "POST":
-        filled_form = ProductForm(reqquest.POST)
-        if filled_form.is_valide():
-            note = "Thank you for visiting this page!Lowest price %s  in your zipcode %s  
-            will return below" %(filled_form.cleaned_data['item1'], 
-            filled_form.cleaned_data['item2'],) 
-            new_form = ProductForm()
-            return render(request, 'home.html', {'productform':form})             
-        else:   
-             form = ProductForm()
-             return render(request, 'home.html', {'productform':form})
+    #print(request.method)
+    #form = ProductForm()
+    # if request.method == "POST":
+    #     filled_form = ProductForm(request.POST)
+    #     if filled_form.is_valid():
+    #         #note = "Thank you for visiting this page!Lowest price %s  in your zipcode %s  
+    #         #will return below" %(filled_form.cleaned_data['item1'], 
+    #         #filled_form.cleaned_data['item2'],) 
+    #         new_form = ProductForm()
+    #         return render(request, 'home.html', {'productform':form})             
+    #     else:   
+    form = ProductForm()
+    return render(request, 'home.html', {'form':form})
