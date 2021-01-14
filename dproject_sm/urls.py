@@ -25,3 +25,4 @@ urlpatterns = [
 
 urlpatterns +=staticfiles_urlpatterns()
 
+#url(r'^submit', views.submit)

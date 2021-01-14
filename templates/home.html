@@ -1,18 +1,18 @@
 {%  load static %}
 <!-- <h1 class = "Text-center"> Welcome! </h1> -->
-   
-   {% include "layout.html" %}
+      {% include "layout.html" %}
+     
+
   <div class = "body-content">
     <p> Enter the item name in the box below. </p>
-
-    <img src = '{% static "products/robot.png"  %}'> 
+     <!-- <img src = '{% static "products/robot.png"  %}'>  -->
   </div>
-    
-      
-    <form class="d-flex">
-        <input class="form-control input-large" type="search" placeholder="Type here..." aria-label="Search">
-        <button class="btn btn-large btn-outline-success" type="submit">Search</button>
-    </form>
+          
+  <form action = " "  method = 'post'> 
+        {% csrf_token %}
+        {{ productform }}
+      <button class="btn btn-large btn-outline-success" type="submit">Search</button>
+  </form>
     
    
   
