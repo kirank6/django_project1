@@ -3,16 +3,16 @@
 #### Week3 to do:
  * Clean up the regex
  * Get normalized price 
-    * after regex delete trailing white spaces.
+    * After regex delete trailing white spaces.
     * Split by white space for value and oz or lb or just extract unit.
-    * use regex to get the numbers out.
-    * get the price per weight.
-    * sort by the best price.
+    * Use regex to get the numbers out.
+    * Get the price per weight.
+    * Sort by the best price.
  * Form ready (Look at this after finishing backend)
- * connecting the function to the submit button.
+ * Connecting the front end and backend.
  #### Week4:
    * Deploy the web app
-   * Embed the images on the website given the image url.
+   * Insert the images on the website given the image url.
     
 # Original Plan
 1. Build frontend basics (1 week)
