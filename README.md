@@ -1,7 +1,20 @@
 # Welcome to my project!
 ## Weekly Goals
-
-
+#### Week3 to do:
+ * Clean up the regex
+ * Get normalized price 
+    * after regex delete trailing white spaces.
+    * Split by white space for value and oz or lb or just extract unit.
+    * use regex to get the numbers out.
+    * get the price per weight.
+    * sort by the best price.
+ * Form ready (Look at this after finishing backend)
+ * connecting the function to the submit button.
+ #### Week4:
+   * Deploy the web app
+   * Embed the images on the website given the image url.
+    
+# Original Plan
 1. Build frontend basics (1 week)
 2. Refine frontend with ability to add extra inputs, embed images as clippings as outputs, deploy with heroku (1 week)
 3. Market basket analysis of Instacard data with apriori rules (1 week) 
